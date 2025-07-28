@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Academy - Get Started With Web3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">🎓 Sign Academy</div>
+            <ul class="nav-links">
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <a href="#" class="cta-nav">Start Learning</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Get Started With Web3.</h1>
+                <p>Join thousands of Web3 natives building the future. Learn blockchain, crypto, and DeFi through interactive flashcards, memes, and community-driven content.</p>
+                <a href="#" class="cta-button">Start Learning Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title fade-in">How It Works</h2>
+            <div class="steps">
+                <div class="step fade-in">
+                    <div class="step-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <h3>Learn</h3>
+                    <p>Dive into bite-sized lessons covering everything from blockchain basics to advanced DeFi strategies. Interactive content keeps you engaged.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Complete</h3>
+                    <p>Finish quizzes, projects, and challenges to prove your knowledge. Each milestone brings you closer to real rewards.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Earn</h3>
+                    <p>Collect tokens, NFT badges, and exclusive perks. Your learning journey pays off with tangible crypto rewards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Courses</h2>
+            <div class="course-grid">
+                <div class="course-card fade-in">
+                    <div class="course-image">
+                        <i class="fab fa-bitcoin"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-badge">Beginner</span>
+                        <h3>Crypto Fundamentals</h3>
+                        <p>Master the basics of Bitcoin, Ethereum, and blockchain technology. Perfect for crypto newcomers.</p>
+                        <div class="course-reward">Earn: 100 SIGN + NFT Badge</div>
+                    </div>
+                </div>
+                <div class="course-card fade-in">
+                    <div class="course-image">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-badge">Intermediate</span>
+                        <h3>DeFi Deep Dive</h3>
+                        <p>Explore decentralized finance protocols, yield farming, and liquidity provision strategies.</p>
+                        <div class="course-reward">Earn: 250 SIGN + Exclusive NFT</div>
+                    </div>
+                </div>
+                <div class="course-card fade-in">
+                    <div class="course-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-badge">Advanced</span>
+                        <h3>NFT Creation & Trading</h3>
+                        <p>Learn to create, mint, and trade NFTs. Understand the art and business of digital collectibles.</p>
+                        <div class="course-reward">Earn: 500 SIGN + Rare NFT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events" id="events">
+        <div class="container">
+            <h2 class="section-title fade-in">Events & Workshops</h2>
+            
+            <!-- Event Tabs -->
+            <div class="event-tabs fade-in">
+                <button class="tab-btn active" data-tab="upcoming">Upcoming Events</button>
+                <button class="tab-btn" data-tab="past">Past Events</button>
+            </div>
+
+            <!-- Upcoming Events -->
+            <div class="tab-content active" id="upcoming">
+                <div class="events-grid">
+                    <div class="event-card upcoming-event fade-in">
+                        <div class="event-date">
+                            <div class="month">AUG</div>
+                            <div class="day">15</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">🚀 Bootcamp</div>
+                            <h3>DeFi Mastery Bootcamp</h3>
+                            <p>3-day intensive bootcamp covering yield farming, liquidity pools, and advanced DeFi strategies. Limited to 50 participants.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-clock"></i> 2:00 PM UTC</span>
+                                <span><i class="fas fa-users"></i> 23/50 spots</span>
+                            </div>
+                            <div class="event-rewards">💰 Earn 500 SIGN + Exclusive NFT</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="rsvp-btn primary">RSVP Now</button>
+                            <button class="remind-btn"><i class="fas fa-bell"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="event-card upcoming-event fade-in">
+                        <div class="event-date">
+                            <div class="month">AUG</div>
+                            <div class="day">08</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">🎙️ Twitter Space</div>
+                            <h3>NFT Trends & Market Analysis</h3>
+                            <p>Join our weekly Twitter Space discussion with industry experts analyzing the latest NFT trends and market movements.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-clock"></i> 7:00 PM UTC</span>
+                                <span><i class="fas fa-users"></i> Open to all</span>
+                            </div>
+                            <div class="event-rewards">🏆 Live Q&A + Prize Giveaway</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="rsvp-btn secondary">Set Reminder</button>
+                            <button class="remind-btn"><i class="fas fa-bell"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="event-card upcoming-event fade-in">
+                        <div class="event-date">
+                            <div class="month">AUG</div>
+                            <div class="day">12</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">💡 Workshop</div>
+                            <h3>Smart Contract Security</h3>
+                            <p>Hands-on workshop teaching smart contract vulnerabilities and security best practices. Includes code review sessions.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-clock"></i> 1:00 PM UTC</span>
+                                <span><i class="fas fa-users"></i> 12/30 spots</span>
+                            </div>
+                            <div class="event-rewards">🛡️ Earn Security Badge + 200 SIGN</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="rsvp-btn primary">Join Workshop</button>
+                            <button class="remind-btn"><i class="fas fa-bell"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="event-card upcoming-event fade-in">
+                        <div class="event-date">
+                            <div class="month">AUG</div>
+                            <div class="day">20</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">📞 Community Call</div>
+                            <h3>Monthly Community Roundup</h3>
+                            <p>Monthly community call featuring platform updates, upcoming features, and community Q&A with the Sign Academy team.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-clock"></i> 6:00 PM UTC</span>
+                                <span><i class="fas fa-users"></i> Open to all</span>
+                            </div>
+                            <div class="event-rewards">📋 Platform Updates + Roadmap Preview</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="rsvp-btn secondary">Add to Calendar</button>
+                            <button class="remind-btn"><i class="fas fa-bell"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Past Events -->
+            <div class="tab-content" id="past">
+                <div class="events-grid">
+                    <div class="event-card past-event fade-in">
+                        <div class="event-date past">
+                            <div class="month">JUL</div>
+                            <div class="day">28</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">🚀 Bootcamp</div>
+                            <h3>Web3 Fundamentals Bootcamp</h3>
+                            <p>2-day intensive bootcamp covering blockchain basics, wallet setup, and first DeFi transactions.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-users"></i> 45 participants</span>
+                                <span><i class="fas fa-star"></i> 4.9/5 rating</span>
+                            </div>
+                            <div class="event-stats">✅ Completed • 180 SIGN distributed</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="replay-btn">Watch Replay</button>
+                            <button class="materials-btn">Get Materials</button>
+                        </div>
+                    </div>
+
+                    <div class="event-card past-event fade-in">
+                        <div class="event-date past">
+                            <div class="month">JUL</div>
+                            <div class="day">21</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">🎙️ Twitter Space</div>
+                            <h3>Bull Market Strategies</h3>
+                            <p>Expert panel discussion on portfolio management and risk strategies during bull market conditions.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-users"></i> 1.2K listeners</span>
+                                <span><i class="fas fa-star"></i> Trending #3</span>
+                            </div>
+                            <div class="event-stats">✅ Completed • 5 winners selected</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="replay-btn">Listen Again</button>
+                            <button class="materials-btn">View Highlights</button>
+                        </div>
+                    </div>
+
+                    <div class="event-card past-event fade-in">
+                        <div class="event-date past">
+                            <div class="month">JUL</div>
+                            <div class="day">14</div>
+                        </div>
+                        <div class="event-content">
+                            <div class="event-type">💡 Workshop</div>
+                            <h3>NFT Creation Workshop</h3>
+                            <p>Hands-on workshop teaching NFT creation, minting, and marketplace listing strategies.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-users"></i> 28 participants</span>
+                                <span><i class="fas fa-star"></i> 4.8/5 rating</span>
+                            </div>
+                            <div class="event-stats">✅ Completed • 15 NFTs minted live</div>
+                        </div>
+                        <div class="event-actions">
+                            <button class="replay-btn">Watch Replay</button>
+                            <button class="materials-btn">Download Tools</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="leaderboard" id="leaderboard">
+        <div class="container">
+            <h2 class="section-title fade-in end">Top Learners</h2>
+            <div class="leaderboard-grid">
+                <div class="leader-card fade-in">
+                    <div class="leader-avatar">🥇</div>
+                    <h3>Big Gids</h3>
+                    <div class="leader-points">2,450 SIGN</div>
+                    <p>12 Courses Completed</p>
+                </div>
+                <div class="leader-card fade-in">
+                    <div class="leader-avatar">🥈</div>
+                    <h3>Truth</h3>
+                    <div class="leader-points">2,180 SIGN</div>
+                    <p>10 Courses Completed</p>
+                </div>
+                <div class="leader-card fade-in">
+                    <div class="leader-avatar">🥉</div>
+                    <h3>Angel Of Web3</h3>
+                    <div class="leader-points">1,950 SIGN</div>
+                    <p>9 Courses Completed</p>
+                </div>
+                <div class="leader-card fade-in">
+                    <div class="leader-avatar">🏆</div>
+                    <h3>Hime Sama</h3>
+                    <div class="leader-points">1,720 SIGN</div>
+                    <p>8 Courses Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">What Learners Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial fade-in">
+                    <div class="testimonial-text">
+                        "Sign Academy made Web3 finally click for me. The learn-to-earn model kept me motivated, and now I'm confidently trading DeFi like a pro"
+                    </div>
+                    <div class="testimonial-author">- Thoth, Early Adopter</div>
+                </div>
+                <div class="testimonial fade-in">
+                    <div class="testimonial-text">
+                        "From zero crypto knowledge to launching my own NFT collection in 3 months. The courses are practical, engaging, and actually rewarding."
+                    </div>
+                    <div class="testimonial-author">- Haikeys, NFT Creator</div>
+                </div>
+                <div class="testimonial fade-in">
+                    <div class="testimonial-text">
+                        "Best investment I've made in my crypto education. The community is amazing and the rewards make learning addictive in the best way."
+                    </div>
+                    <div class="testimonial-author">- Boss j., DeFi Enthusiast</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="section-title fade-in">Trusted Partners</h2>
+            <div class="partner-grid">
+                <div class="partner-logo fade-in">Binance</div>
+                <div class="partner-logo fade-in">TokenTable</div>
+                <div class="partner-logo fade-in">SignPass</div>
+                <div class="partner-logo fade-in">EthSign</div>
+                <!-- <div class="partner-logo fade-in"></div> -->
+                <!-- <div class="partner-logo fade-in">OpenSea</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section class="community" id="community">
+        <div class="container">
+            <h2 class="section-title fade-in end">Join the Community</h2>
+            <p class="fade-in">Connect with fellow learners, share insights, and stay updated on the latest Web3 trends.</p>
+            <div class="social-links fade-in">
+                <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sign Academy</h3>
+                    <p>Empowering the next billion Web3 users through incentivized learning and real rewards.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#leaderboard">Leaderboard</a></li>
+                        <li><a href="#community">Community</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with the latest courses and Web3 insights.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email">
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sign Academy. All rights reserved. Built for the Web3 generation.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
